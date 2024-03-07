@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainallcontainer{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow-x: hidden;
+  overflow-y:hidden ;
+}
+.drawingcontainer{
+  width: 50%;
+  height: 100%;
+  cursor: pointer;
+}
+.alphabetcontainer{
+  width: 50%;
+  height: 100%;
+  border-right-width: 5px;
+  border-right-style: dashed;
+  border-right-color: rgb(2, 2, 2);
+  background-color: rgb(255, 255, 255);
+}
+.aplhabetdisplaycontainer{
+  width: 100%;
+  height: 60vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 190px;
+}
+.aplhabetdisplaycontainer div{
+  margin-right: 60px;
+}
+
+.nextalphabetcontainer{
+  width: 100%;
+  height: 40vh;
+  /* background-color: rgb(209, 249, 241); */
+  border-top: 2px solid black;
+}
+.nextalphabetcontainer ul{
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 61.5px;
+  cursor: pointer;
+}
+.nextalphabetcontainer ul li{
+  margin: 14px;
+}
+
+.drawingspacecontainer{
+  width: 50vw;
+  border-bottom: 3px solid black;
+}
+
+
+.drawingspacecontainer h1{
+ position: absolute;
+ top: 10%;
+ left: 67%;
+ font-size: 400px;
+ opacity: 15%;
+ z-index: -10;
+}
+.drawingcontainer img{
+  position: absolute;
+  top: 10px;
+  margin-left: 20px;
+}
+.undobuttoncontainer{
+  background-color: red;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+.undobuttoncontainer button{
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  font-size: 40px;
+}
+
+
+.correctimagecontainer img{
+  position:static;
+  background-color: blue;
+}
+
+.game_container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 27vh;
+justify-content: center;
+}
+.options{
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+}
+.options button{
+  margin: 8px;
+  border: none;
+  background-color: transparent;
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  cursor: pointer;
+}
+
+
+
+
+.correct-animation {
+  animation: correctAnimation 0.5s ease;
+}
+
+.wrong-animation {
+  animation: wrongAnimation 0.5s ease;
+}

@@ -1,0 +1,28 @@
+.mainhomecontainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background: linear-gradient(115deg,#ffd4d4,#bbffea);
+   color: rgb(255, 114, 114);
+}
+.contenthomecontainer{
+   margin-top: 20px;
+   font-size: 30px;
+}
+
+.aplabetnav{
+
+  color: rgb(0, 0, 0);
+}
+.contenthomecontainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.contenthomecontainer h2{
+    margin-bottom: 20px;
+}
